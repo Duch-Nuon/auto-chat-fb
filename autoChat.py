@@ -13,7 +13,7 @@ tz = pytz.timezone('Asia/Phnom_Penh')
 
 telegram_bot = TelegramBot()
 
-def wait_until_random_time(start_hour=15, start_minute=22, end_hour=18, end_minute=6):
+def wait_until_random_time(start_hour=15, start_minute=22, end_hour=18, end_minute=14):
     random.seed(int(time_module.time() * 1000) + os.getpid())
     
     now = datetime.now(tz)
