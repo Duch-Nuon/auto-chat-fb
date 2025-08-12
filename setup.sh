@@ -17,7 +17,7 @@ pip install --upgrade pip
 
 # Install requirements
 echo "📥 Installing Python packages..."
-pip install pytz python-dotenv playwright
+pip install pytz python-dotenv playwright requests
 
 # Install Playwright browsers
 echo "🌐 Installing Playwright browsers..."
